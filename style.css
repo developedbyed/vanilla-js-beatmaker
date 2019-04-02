@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+}
+
 .app {
   min-height: 100vh;
   display: flex;
@@ -32,20 +36,46 @@ header p {
   flex: 1;
 }
 .pad1 {
-  background: rgb(85, 172, 89);
+  background: #60d394;
 }
 .pad2 {
-  background: rgb(78, 134, 180);
+  background: #d36060;
 }
 .pad3 {
-  background: rgb(116, 80, 182);
+  background: #c060d3;
 }
 .pad4 {
-  background: rgb(184, 75, 75);
+  background: #d3d160;
 }
 .pad5 {
-  background: rgb(197, 199, 82);
+  background: #606bd3;
 }
 .pad6 {
-  background: rgb(211, 122, 81);
+  background: #60c2d3;
+}
+
+.visual > div {
+  position: absolute;
+  bottom: 0%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transform: scale(1);
+  z-index: -1;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: 00%;
+    left: 80%;
+  }
 }
