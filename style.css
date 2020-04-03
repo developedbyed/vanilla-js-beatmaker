@@ -1,4 +1,8 @@
-* {
+body{
+  background-image: url("beat.jpg");
+ background-color: #cccccc;
+}
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,17 +16,30 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
 }
 
 header h1 {
   margin: 50px 0px 30px 0px;
   text-align: center;
-  font-size: 40px;
+  color: #8338a6;
+  font-family: Times New Roman;
+  font-size: 5em;
+  border-bottom: 2px solid pink;
+  border-right: 2px solid pink;
+  width: 400px;
+  box-shadow: 4px 4px 5px #d15a5a;
+
 }
 header p {
   font-size: 25px;
+  color: #a11f23;
+  font-family: Zapf Chancery, cursive;
+}
+
+.middle {
+   margin: 150px 0px 30px 0px;
 }
 
 .pads {
@@ -33,25 +50,31 @@ header p {
 .pads > div {
   height: 100px;
   width: 100px;
-  flex: 1;
+  flex:1 
 }
 .pad1 {
-  background: #60d394;
-}
-.pad2 {
-  background: #d36060;
+  background: rgb(128,34,195);
+background: linear-gradient(0deg, rgba(128,34,195,1) 18%, rgba(253,187,45,1) 100%);
 }
 .pad3 {
-  background: #c060d3;
-}
-.pad4 {
-  background: #d3d160;
+  background: background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);;
 }
 .pad5 {
-  background: #606bd3;
+  background: background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);;
+}
+.pad2 {
+  background: background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(2,84,25,1) 72%);;
+}
+.pad4 {
+  background: background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,46,9,1) 46%, rgba(0,212,255,1) 100%);;
 }
 .pad6 {
-  background: #60c2d3;
+  background: background: rgb(62,51,51);
+background: linear-gradient(90deg, rgba(62,51,51,1) 50%, rgba(252,176,69,1) 100%);;
 }
 
 .visual > div {
