@@ -35,6 +35,9 @@ header p {
   width: 100px;
   flex: 1;
 }
+.pads > div:active{
+  background-color:rgba(255, 255, 255, 0.877)
+}
 .pad1 {
   background: #60d394;
 }
