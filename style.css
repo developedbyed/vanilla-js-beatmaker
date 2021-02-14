@@ -35,6 +35,15 @@ header p {
   width: 100px;
   flex: 1;
 }
+.pads span {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  display: block;
+  color: #fff;
+  user-select: none;
+}
 .pad1 {
   background: #60d394;
 }
@@ -53,7 +62,6 @@ header p {
 .pad6 {
   background: #60c2d3;
 }
-
 .visual > div {
   position: absolute;
   bottom: 0%;
@@ -63,19 +71,87 @@ header p {
   transform: scale(1);
   z-index: -1;
 }
-
-@keyframes jump {
+@keyframes jumpF {
   0% {
     bottom: 0%;
-    left: 20%;
+    left: 0%;
   }
   50% {
-    bottom: 50%;
+    bottom: 80%;
+    left: 8%;
+  }
+  100% {
+    bottom: 0%;
+    left: 14%;
+  }
+}
+@keyframes jumpG {
+  0% {
+    bottom: 0%;
+    left: 16%;
+  }
+  50% {
+    bottom: 80%;
+    left: 25%;
+  }
+  100% {
+    bottom: 0%;
+    left: 30%;
+  }
+}
+@keyframes jumpH {
+  0% {
+    bottom: 0%;
+    left: 33%;
+  }
+  50% {
+    bottom: 80%;
+    left: 40%;
+  }
+  100% {
+    bottom: 0%;
+    left: 47%;
+  }
+}
+@keyframes jumpJ {
+  0% {
+    bottom: 0%;
     left: 50%;
   }
-
+  50% {
+    bottom: 80%;
+    left: 57%;
+  }
   100% {
-    bottom: 00%;
-    left: 80%;
+    bottom: 0%;
+    left: 62%;
+  }
+}
+@keyframes jumpK {
+  0% {
+    bottom: 0%;
+    left: 67%;
+  }
+  50% {
+    bottom: 80%;
+    left: 75%;
+  }
+  100% {
+    bottom: 0%;
+    left: 79%;
+  }
+}
+@keyframes jumpL {
+  0% {
+    bottom: 0%;
+    left: 83%;
+  }
+  50% {
+    bottom: 80%;
+    left: 90%;
+  }
+  100% {
+    bottom: 0%;
+    left: 96%;
   }
 }
